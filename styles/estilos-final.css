@@ -26,7 +26,7 @@ html {
   div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
-    float: left;
+    float: center;
     width: 180px;
 }
 
