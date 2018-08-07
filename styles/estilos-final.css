@@ -3,7 +3,10 @@ header{
     color: red;
     background: blue;
 }
+nav{
+    text-align: right;
 
+}
 html {
     font-family: sans-serif;
   }
