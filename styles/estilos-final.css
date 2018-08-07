@@ -3,11 +3,7 @@ header{
     color: red;
     background: blue;
 }
-nav{
-    text-align: right;
-    background-attachment: fixed;
-    background-color: blue;
-}
+
 html {
     font-family: sans-serif;
   }
