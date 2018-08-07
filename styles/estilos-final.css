@@ -1,8 +1,10 @@
 header{
-    text-align: left
+    text-align: left;
+    color: red;
+    background: blue;
 }
 nav{
-    text-align: right
+    text-align: right;
 }
 html {
     font-family: sans-serif;
