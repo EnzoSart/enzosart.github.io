@@ -36,15 +36,17 @@ html {
 }
 
 div.gallery:hover {
-    border: 1px solid #777;
+    border: 1px solid rgb(11, 165, 37);
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+    border: 1px solid black;
 }
 
 div.desc {
     padding: 15px;
     text-align: center;
+    border: 1px solid black;
 }
