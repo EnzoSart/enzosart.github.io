@@ -50,3 +50,7 @@ div.desc {
     text-align: center;
     border: 1px solid black;
 }
+
+form.iniciosesion {
+    text-align: center
+}
