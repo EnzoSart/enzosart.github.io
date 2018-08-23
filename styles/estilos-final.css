@@ -36,7 +36,7 @@ html {
 }
 
 div.gallery:hover {
-    border: 1px solid rgb(11, 165, 37);
+    border: 5px solid rgb(11, 165, 37);
 }
 
 div.gallery img {
