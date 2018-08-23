@@ -54,5 +54,8 @@ div.desc {
 form.iniciosesion {
     text-align: center;
     padding-top: 50%;
-    padding-bottom: 50%
+    padding-bottom: 50%;
+    padding-left: 50%;
+    padding-right: 50%;
+
 }
