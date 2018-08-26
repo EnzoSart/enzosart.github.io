@@ -67,12 +67,13 @@ html {
   
   td {
     border: 1px solid rgb(000,000,000);
-    padding:0;
+    padding: none;
   }
   
   td {
-    text-align: center;
+      text-align: center;
   }
+
   section.store-gallery {
     margin-top: 100px;
    margin-left: 5%;
