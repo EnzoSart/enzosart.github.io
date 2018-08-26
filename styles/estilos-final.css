@@ -93,7 +93,7 @@ div.gallery:hover {
 div.gallery img {
     width: 100%;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid red;
 }
 
 div.desc {
