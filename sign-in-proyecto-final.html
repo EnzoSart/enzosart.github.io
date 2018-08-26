@@ -11,14 +11,16 @@
     <script src="scripts/scripts-final.js"></script>
 </head>
 <body>
-    <header><strong>Gemuoba</strong></header>
     <nav>
-    <a href="index.html">Home</a>
+     <div class="header">
+            <header><a href="index.html"><img src="images/coollogo_com-15391780.png" alt="Gemuoba.com" width="100px" height="50px"></a></header>
+    </div>
     </nav>
-    <form class="iniciosesion" action="index.html">
+    <form action="index.html">
+        <div class="container">
         <legend>Sign in to your account</legend>
         <br>
-                <div class="container">
+                
                 
                 <div>
                 <label for="name">Nombre</label>
@@ -49,11 +51,12 @@
                 <br>
                 <input type="password" id="confirm_password" name="pwd" required>
                 </div>
-                </div>
+                
                 
                 <input type="reset" value="Reset"/>
-                <button type="submit">Sing In</button>
-                </div> 
+                <button type="submit">Sign In</button>
+            </div>
+                </div>
     </form>
 </body>
 </html>
