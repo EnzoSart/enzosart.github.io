@@ -24,10 +24,6 @@ nav {
     
 }
 
-
-
-
-
 div.menu_section {
     margin: auto;
     padding-top: 17px;
@@ -42,7 +38,6 @@ div.principal_section {
     width: 1060px; 
     margin: auto;
 }
-
 
 
 html {
@@ -102,18 +97,11 @@ div.desc {
     border: 1px solid black;
 }
 
-div.container {
-    margin-top: 100px;
-    margin-right: auto;
-    margin-left: auto;
-    width: 60%;
-    box-sizing: border-box;
-    border: 3px solid #73AD21;
-    padding: 10px;
-    text-align: center;
-  
-}
+
 
 section.game-description {
     margin-top: 75px;
 }
+
+
+
