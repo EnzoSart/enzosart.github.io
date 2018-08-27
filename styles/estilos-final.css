@@ -92,6 +92,19 @@ html.diabloIIIBG {
 
 }
 
+html.counterstrike {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bolder;
+    background-image: url("../images/templeofluxorBG.jpg");
+    height: 100%;
+    background-position: absolute;
+    background-repeat:no-repeat;
+    background-size:auto;
+    position: relative;
+
+}
+
 div.other_offers {
      margin-top: 10px;
      margin-bottom: 10px;
