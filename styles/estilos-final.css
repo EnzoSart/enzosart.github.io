@@ -96,13 +96,37 @@ html.counterstrike {
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     font-weight: bolder;
-    background-image: url("../images/templeofluxorBG.jpg");
+    background-image: url("../images/.jpg");
     height: 100%;
     background-position: absolute;
     background-repeat:no-repeat;
     background-size:auto;
     position: relative;
 
+}
+
+html.outlastgemuoba {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    background-image: url("../images/outlastgemuobaBG.jpg");
+    height: 100%;
+    background-position: absolute;
+    background-repeat:no-repeat;
+    background-size:auto;
+    position: relative;
+}
+
+html.plantsvszombies {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    background-image: url("../images/plantsvszombiesBG.jpg");
+    height: 100%;
+    background-position: absolute;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position: relative;
 }
 
 div.other_offers {
