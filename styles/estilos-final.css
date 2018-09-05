@@ -311,12 +311,7 @@ section.game-description {
 }
 
 @media screen and (max-width:480px) {
-body.hollowknight {
-    font-family: Arial, Helvetica, sans-serif;
-    color: whitesmoke;
-    background-image: url("../images/hollowknightBG.jpg");
-    background-size: all;
-}
+
 }
 
 
