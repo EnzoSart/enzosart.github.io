@@ -19,9 +19,37 @@ nav {
         box-shadow: 0px 1px 3px 1px black;
         -webkit-tap-highlight-color: transparent;
         background-color: black;
-        opacity: 0.90;
+        opacity: 0.90;    
+}
+
+nav div header a:hover {
+    background: black;
+}
+
+nav a {
+    padding-left: 14px;
+    padding-right: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: purple;
+}
+
+nav a:hover:not(:active) {
+    text-align: center;
+    color: white;
+}
+
+button a:hover:not(:active) {
+    text-align: center;
+    color: white;
     
-    
+}
+
+button:hover {
+background-color: green;
 }
 
 div.menu_section {
@@ -39,10 +67,25 @@ div.principal_section {
     margin: auto;
 }
 
-
 html {
     font-family: sans-serif;
 
+}
+
+html.home {
+background-color: grey;
+}
+
+html.Store {
+    background-color: grey;
+}
+
+article.About-Gemuoba-main {
+    margin-top: 75px;
+}
+
+section.game-description {
+    margin-top: 75px;
 }
 
 body.hollowknight {
@@ -276,8 +319,12 @@ div.other_offers {
       text-align: center;
   }
 
+  td.Featured,td.SpOffer,td.popu {
+      background-color: white;
+  }
+
   section.store-gallery {
-    margin-top: 100px;
+   margin-top: 100px;
    margin-left: 5%;
 }
 
@@ -288,26 +335,38 @@ div.other_offers {
     width: 180px;
 }
 
-div.gallery:hover {
-    border: 1px solid red;
-}
-
 div.gallery img {
     width: 100%;
     height: auto;
-    border: 1px solid red;
+    border: 1px solid black;
 }
 
 div.desc {
-    padding: 15px;
+    padding: 0px 15px 15px 15px;
     text-align: center;
     border: 1px solid black;
 }
 
+div.gallery:hover {
+    background-color: blue;
+}
 
+div.store1 {
+    max-height: 33.333333%;
+    box-sizing: initial;
+    padding-bottom: 0%;
+}
 
-section.game-description {
-    margin-top: 75px;
+div.store2 {
+    max-height: 33.333333%;
+    padding-top: 20%;
+    box-sizing: inherit;
+}
+
+div.store3 {
+    max-height: 33.333333%;
+    padding-top: 10px;
+    box-sizing: inherit;
 }
 
 @media screen and (max-width:480px) {
