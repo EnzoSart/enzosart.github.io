@@ -58,7 +58,7 @@ button a:hover:not(:active) {
     
 }
 
-button:hover {
+button:hover,input reset:hover {
 background-color: green;
 }
 
@@ -386,6 +386,17 @@ div.store3 {
     max-height: 33.333333%;
     padding-top: 10px;
     box-sizing: inherit;
+}
+
+form {
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background: grey;
+ box-sizing: content-box;
+ border: 5px solid purple;
+ padding: 175px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 @media screen and (max-width:480px) {
