@@ -7,7 +7,6 @@
 }
 
 nav {
-     
         position: fixed;
         top: 0;
         left: 0;
@@ -41,6 +40,17 @@ nav a:hover:not(:active) {
     text-align: center;
     color: white;
 }
+
+nav div input {
+        -webkit-appearance-Chrome: searchfield;
+        background-color: white;
+        -webkit-rtl-ordering: logical;
+        cursor: text;
+        padding: 0px;
+        border-width: 2px;
+        border-radius: 10px;
+}
+       
 
 button a:hover:not(:active) {
     text-align: center;
@@ -80,8 +90,17 @@ html.Store {
     background-color: grey;
 }
 
+html.about {
+    background-color: grey;
+}
 article.About-Gemuoba-main {
     margin-top: 75px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
+}
+
+article.About-Gemuoba-main h1 {
+    text-align: center;
+    color: purple;
 }
 
 section.game-description {
