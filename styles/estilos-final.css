@@ -1,7 +1,8 @@
 .header img{
     float: left;
     width: 100px;
-    height: 51px;
+    height: 50px;
+    padding: 3px;
     image-resolution: 300dpi;
 
 }
@@ -92,6 +93,10 @@ html.Store {
 
 html.about {
     background-color: grey;
+}
+
+html.contactus,html.signin {
+    background-color: black;
 }
 article.About-Gemuoba-main {
     margin-top: 75px;
