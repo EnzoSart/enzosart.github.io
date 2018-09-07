@@ -161,7 +161,7 @@ body.diabloIIIBG {
 
 body.counterstrike {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: orange;
     font-weight: bolder;
     background-image: url("../images/coounterstrikeBG.jpg");
     height: 100%;
@@ -186,7 +186,7 @@ body.outlastgemuoba {
 
 body.plantsvszombies {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color:red;
     font-weight: bolder;
     background-image: url("../images/plantsvszombiesBG.jpg");
     height: 100%;
@@ -240,7 +240,7 @@ body.ageofgladiators {
 
 body.wrc7 {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color:black;
     font-weight: bolder;
     background-image: url("../images/wrcBG.jpg");
     height: 100%;
@@ -310,7 +310,7 @@ body.kittypocalypse {
 
 body.braid {
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
     font-weight: bolder;
     background-image: url("../images/braidBG.jpg");
     height: 100%;
