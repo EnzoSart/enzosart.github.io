@@ -235,6 +235,7 @@ body.darksiders {
 body.ageofgladiators {
     font-family: Arial, Helvetica, sans-serif;
     color: sandybrown;
+    background-color: brown;
 }
 
 body.wrc7 {
@@ -436,7 +437,6 @@ body.hollowknight {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
     background-image: url("../images/hollowknightBG.jpg");
-    background-position: cover;
     background-repeat: no-repeat;
     background-size: 800%;
 }
@@ -445,7 +445,68 @@ body.stickfight {
     color: whitesmoke;
     background-image: url("../images/stickfightB.jpg");
     background-repeat: no-repeat;
-    background-size: 10000px;
+    background-size: 800%;
+}
+body.gtasanandreas {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    background-image: url("../images/sanandreasBG.jpg");
+    background-repeat: no-repeat;
+    background-size: 800%;
+}
+body.diabloIIIBG {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bolder;
+    background-image: url("../images/diabloIIIBG.jpg");
+    background-repeat:no-repeat;
+    background-size: 800%;
+}
+body.counterstrike {
+    color: orange;
+    font-weight: bolder;
+}
+body.plantsvszombies {
+    font-family: Arial, Helvetica, sans-serif;
+    color:red;
+    font-weight: bolder;
+    background-image: url("../images/plantsvszombiesBG.jpg");
+    background-repeat:no-repeat;
+    background-size:800%;
+}
+body.kingdomrush {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    background-image: url("../images/kingdomrushBG.jpg");
+    background-repeat:no-repeat;
+    background-size:800%;
+}
+body.wrc7 {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: bolder;
+    background-image: url("../images/wrcBG.jpg");
+    background-repeat:no-repeat;
+    background-size: 800%;
+
+}
+body.purgatoryfell {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bolder;
+    background-image: url("../images/purgatoryBG.jpg");
+    background-repeat:no-repeat;
+    background-size:800%;
+}
+body.braid {
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    font-weight: bolder;
+    background-image: url("../images/braidBG.jpg");
+    background-repeat:no-repeat;
+    background-size:800%;
 }
 }
 
