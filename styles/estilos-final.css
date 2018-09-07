@@ -438,7 +438,7 @@ body.hollowknight {
     background-image: url("../images/hollowknightBG.jpg");
     background-position: cover;
     background-repeat: no-repeat;
-    background-size: 10000px;
+    background-size: 800%;
 }
 body.stickfight {
     font-family: Arial, Helvetica, sans-serif;
