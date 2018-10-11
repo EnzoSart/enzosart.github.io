@@ -98,6 +98,12 @@ html.about {
 html.contactus,html.signin {
     background-color: black;
 }
+
+html.comprar-juego {
+    background-image: url("../images/hollowknightBG.jpg");
+    background-size: cover;
+}
+
 article.About-Gemuoba-main {
     margin-top: 75px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
