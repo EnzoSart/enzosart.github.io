@@ -9,5 +9,11 @@ document.addEventListener("DOMContentLoaded", function(){
     categoría.setAttribute("value", juegos[0].ranking);
 
     var género = document.getElementById("genre");
-    género.innerHTML = juego[0].genre;
+    género.innerHTML = juegos[0].genre;
+
+    var Foto1 = document.getElementById("gamepic")
+    Foto1.setAttribute("src", juegos[0].Foto1);
+
+    var descripción = document.getElementById("description");
+    descripción.innerHTML = juegos[0].description;
 })
