@@ -24,10 +24,33 @@
         </div>
         </nav>
     
+        <img class="compraHKS" src="images/hollowknight.jpg" alt="hollowknight" width="300" height="200">
         <form action="index.html">
-            <div class="container">
-            <img class="compraHKS" src="images/hollowknight.jpg" alt="hollowknight" width="300" height="200">
-            </div>
+        <div class="container">
+        <legend>Buy and Enjoy the Best Games</legend>
+        <br>
+        <div>
+            <label for="quantity">Quantity:</label>
+            <input type="number" name="quantity" id="quantity" min="1" max="10">
+        </div>
+        <div>
+            <label for="payment">Payment Method:</label>
+            <select name="payment method" id="payment">
+                <option value="visa">Visa</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="ae">American Express</option>
+            </select>
+        </div>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="user_name" max="30" required>
+        </div>
+        <div>
+            <label for="mail">E-mail</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        </div>
         </form>
 </body>
 </html>
