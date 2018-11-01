@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
     var categoría = document.getElementById("meter");
     categoría.setAttribute("value", juegos[0].ranking);
-
+    
     var género = document.getElementById("genre");
     género.innerHTML = juegos[0].genre;
 

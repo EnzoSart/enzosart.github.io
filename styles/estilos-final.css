@@ -411,6 +411,12 @@ form {
  justify-content: center;
 }
 
+.compraHKS {
+    position: left;
+}
+
+}
+
 @media screen and (max-width:480px) {
 div.menu_section {
     padding-top: 0px;
@@ -515,7 +521,6 @@ body.braid {
     background-size:800%;
 }
 }
-
 
 
 
