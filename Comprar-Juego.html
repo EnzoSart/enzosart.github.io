@@ -46,10 +46,26 @@
             <input type="text" id="name" name="user_name" max="30" required>
         </div>
         <div>
-            <label for="mail">E-mail</label>
+            <label for="mail">E-mail:</label>
             <input type="email" id="email" name="email" required>
         </div>
-
+        <div>
+            <label for="format">Format:</label>
+            <input type="radio" name="format" value="physical">Physical
+            <input type="radio" name="format" value="digital">Digital
+        </div>
+        <div>
+            <label for="adress">Adress:</label>
+            <input type="text" id="adress" name="adress" max="60" required>
+        </div>
+        <div>
+        <label for="shp method">Shipping Method:</label>
+        <select name="shp method" id="shp method">
+        <option value="normal">Normal</option>
+        <option value="special">Special</option>
+        <option value="premium">Premium</option>
+        </select>
+        </div>
         </div>
         </form>
 </body>
