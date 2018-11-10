@@ -25,11 +25,6 @@ document.addEventListener("DOMContentLoaded", function(){
         }
     });
 
-    shpmethod.addEventListener("change", function(){
-       if (document.getElementById("shp-method-nor").selected) {
-           precioTotal.innerHTML = "$" + precio * 1.5 * cantidad;
-       }
-    });
 
 
 
