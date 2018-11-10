@@ -13,15 +13,15 @@ document.addEventListener("DOMContentLoaded", function(){
 
     CD.addEventListener("change", function(){
         if (CD.checked) {
-            document.getElementById("address-div").style.display = "none";
-            document.getElementById("shp-method-div").style.display = "none";
+            document.getElementById("address-div").style.display = "block";
+            document.getElementById("shp-method-div").style.display = "block";
         }
     });
 
     digital.addEventListener("change", function (){
         if (digital.checked) {
-            document.getElementById("address-div").style.display = "block";
-            document.getElementById("shp-method-div").style.display = "block";
+            document.getElementById("address-div").style.display = "none";
+            document.getElementById("shp-method-div").style.display = "none";
         }
     })
 
