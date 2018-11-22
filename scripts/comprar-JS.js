@@ -8,14 +8,18 @@ document.addEventListener("DOMContentLoaded", function(){
     document.getElementById("address-div").style.display = "none";
     document.getElementById("shp-method-div").style.display = "none";
     var precioActual;
-    precioSubtotal.innerHTML = precio;
-
+    var precioTotal = document.getElementById("totalAmount");
+    var porcentajeEnvio = 1;
+    var btnCancelar = document.getElementById("btn-cancelar");
 
     campoCantidad.addEventListener("change", function(){
         var cantidad = parseInt(campoCantidad.value);
         precioActual = cantidad * precio;
         precioSubtotal.innerHTML = "$" + precioActual.toFixed(2);
+        precioActual = precioActual * 1.22;
+        precioTotal.innerHTML = "$" + precioActual.toFixed(2);
     });
+
 
     CD.addEventListener("change", function(){
         if (CD.checked) {
@@ -23,20 +27,22 @@ document.addEventListener("DOMContentLoaded", function(){
             document.getElementById("shp-method-div").style.display = "block";
             var metodo = campoEnvio.value;
             var costoTotal;
+            campoEnvio.value ="default";
+            metodo = "default";
             if (metodo=="normal"){
-                costoTotal = precioActual * 1.005;
-                precioSubtotal.innerHTML = "$" + costoTotal.toFixed(2);
+                porcentajeEnvio = 1.005;
+                precioTotal.innerHTML = "$" + (precioActual * porcentajeEnvio).toFixed(2);
             }
             else if (metodo=="special"){
-                costoTotal = precioActual * 1.02;
-                precioSubtotal.innerHTML = "$" + costoTotal.toFixed(2);
+                porcentajeEnvio = 1.02;
+                precioTotal.innerHTML = "$" + (precioActual * porcentajeEnvio).toFixed(2);
             }
             else if (metodo=="premium"){
-                costoTotal = precioActual * 1.05;
-                precioSubtotal.innerHTML = "$" + costoTotal.toFixed(2);
+                porcentajeEnvio = 1.05;
+                precioTotal.innerHTML = "$" + (precioActual * porcentajeEnvio).toFixed(2);
             }
             else {
-                precioSubtotal.innerHTML = "$" + precioActual.toFixed(2);
+                precioTotal.innerHTML = "$" + precioActual.toFixed(2);
             }
         
 
@@ -47,7 +53,8 @@ document.addEventListener("DOMContentLoaded", function(){
         if (digital.checked) {
             document.getElementById("address-div").style.display = "none";
             document.getElementById("shp-method-div").style.display = "none";
-            precioSubtotal.innerHTML = "$" + precioActual.toFixed(2);
+            precioTotal.innerHTML = "$" + precioActual.toFixed(2);
+            porcentajeEnvio = 1;
         }
     })
 
@@ -55,24 +62,25 @@ document.addEventListener("DOMContentLoaded", function(){
         var metodo = campoEnvio.value;
         var costoTotal;
         if (metodo=="normal"){
-            costoTotal = precioActual * 1.005;
-            precioSubtotal.innerHTML = "$" + costoTotal.toFixed(2);
+            porcentajeEnvio = 1.005;
+            precioTotal.innerHTML = "$" + (precioActual * porcentajeEnvio).toFixed(2);
         }
         else if (metodo=="special"){
-            costoTotal = precioActual * 1.02;
-            precioSubtotal.innerHTML = "$" + costoTotal.toFixed(2);
+            porcentajeEnvio = 1.02;
+            precioTotal.innerHTML = "$" + (precioActual * porcentajeEnvio).toFixed(2);
         }
         else if (metodo=="premium"){
-            costoTotal = precioActual * 1.05;
-            precioSubtotal.innerHTML = "$" + costoTotal.toFixed(2);
+            porcentajeEnvio = 1.05;
+            precioTotal.innerHTML = "$" + (precioActual * porcentajeEnvio).toFixed(2);
         }
         else {
-            precioSubtotal.innerHTML = "$" + precioActual.toFixed(2);
+            precioTotal.innerHTML = "$" + precioActual.toFixed(2);
         }
+    });
+
+    btnCancelar.addEventListener("click", function(){
+        precioSubtotal.innerHTML = "$0";
+        precioTotal.innerHTML = "$0";
     })
-
-
-
-
 
 });

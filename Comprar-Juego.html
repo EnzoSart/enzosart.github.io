@@ -31,11 +31,12 @@
         <br>
         <div>
             <label for="quantity">Quantity:</label>
-            <input type="number" name="quantity" id="quantity" min="1" max="10" value="1">
+            <input type="number" name="quantity" id="quantity" min="1" max="10">
         </div>
         <div>
             <label for="payment">Payment Method:</label>
             <select name="payment method" id="payment">
+                <option value="default"></option>
                 <option value="visa">Visa</option>
                 <option value="mastercard">Mastercard</option>
                 <option value="ae">American Express</option>
@@ -56,12 +57,12 @@
         </div>
         <div id="address-div">
             <label for="address">Address:</label>
-            <input type="text"  name="address" max="60" required>
+            <input type="text"  name="address" max="60" id="address" required>
         </div>
         <div id="shp-method-div">
             <label for="shp-method">Shipping Method:</label>
             <select name="shp-method-sel" id="shp-method-sel">
-                <option></option>
+                <option value="default"></option>
                 <option value="normal" id="shp-method-nor">Normal</option>
                 <option value="special" id="shp-method-spe">Special</option>
                 <option value="premium" id="shp-method-pre">Premium</option>
@@ -70,9 +71,12 @@
         <div>
             <p><strong>Subtotal Amount: <span id="subtotalAmount"></span></strong></p>
         </div>
+        <div>
+            <p><strong>Total Amount: <span id="totalAmount"></span></strong></p>
+        </div>
         </div>
         <div>
-            <input type="reset" value="Reset">
+            <input type="reset" value="Cancel" id="btn-cancelar">
         </div>
         </form>
 </body>

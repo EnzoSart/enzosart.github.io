@@ -83,16 +83,8 @@ html {
 
 }
 
-html.home {
+html.home, html.Store, html.about {
 background-color: grey;
-}
-
-html.Store {
-    background-color: grey;
-}
-
-html.about {
-    background-color: grey;
 }
 
 html.contactus,html.signin {
@@ -152,6 +144,11 @@ body.gtasanandreas {
     position: relative;
 }
 
+[class$="gtasanandreas"] {
+    background: #000000;
+    opacity: 0.80;
+}
+
 body.diabloIIIBG {
     font-family: Arial, Helvetica, sans-serif;
     color: red;
@@ -162,8 +159,12 @@ body.diabloIIIBG {
     background-repeat:no-repeat;
     background-size: auto;
     position: relative;
-
 }
+
+[class$="diabloIIIBG"] {
+    background: #000000;
+}
+
 
 body.counterstrike {
     font-family: Arial, Helvetica, sans-serif;
