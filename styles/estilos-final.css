@@ -1,3 +1,4 @@
+/*Logo*/
 .header img{
     float: left;
     width: 100px;
@@ -7,6 +8,7 @@
 
 }
 
+/* Navigation Bar */
 nav {
         position: fixed;
         top: 0;
@@ -22,10 +24,12 @@ nav {
         opacity: 0.90;    
 }
 
+/* Mouse Arrow over Logo in Nav Bar */
 nav div header a:hover {
     background: black;
 }
 
+/*Links on the Nav Bar*/
 nav a {
     padding-left: 14px;
     padding-right: 14px;
@@ -33,15 +37,18 @@ nav a {
     text-decoration: none;
 }
 
+/*Mouse Arrow over the Links in Nav Bar */
 nav a:hover {
     background: purple;
 }
 
+/*Changes color in link's label */
 nav a:hover:not(:active) {
     text-align: center;
     color: white;
 }
 
+/*Search Bar*/
 nav div input {
         -webkit-appearance-Chrome: searchfield;
         background-color: white;
@@ -53,63 +60,75 @@ nav div input {
 }
        
 
+/* Button's text color */
 button a:hover:not(:active) {
     text-align: center;
     color: white;
     
 }
 
+/* When the button is clicked changes color */
 button:hover,input reset:hover {
 background-color: green;
 }
 
+/* Right side links */
 div.menu_section {
     margin: auto;
     padding-top: 17px;
     text-align: right;
 }
 
+/* Main page */
 .principal_section {
     margin-top:100px;
 }
 
+/* Main Page content's width */
 div.principal_section {
     width: 1060px; 
     margin: auto;
 }
 
+/* HTML's Font */
 html {
     font-family: sans-serif;
-
 }
 
+/* Principal pages background */
 html.home, html.Store, html.about {
 background-color: grey;
 }
 
+/* Pages with forms background */
 html.contactus,html.signin {
     background-color: black;
 }
 
+/* Buy Hollow Knight */
 html.comprar-juego {
     background-image: url("../images/hollowknightBG.jpg");
     background-size: cover;
 }
 
+/* About's style */
 article.About-Gemuoba-main {
     margin-top: 75px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    
 }
 
+/* About's heading */
 article.About-Gemuoba-main h1 {
     text-align: center;
     color: purple;
 }
 
+/* Each's game description */
 section.game-description {
     margin-top: 75px;
 }
 
+/* Hollow Knight */
 body.hollowknight {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
@@ -121,6 +140,7 @@ body.hollowknight {
     position: relative;
 }
 
+/* Stick Fight */
 body.stickfight {
     font-family: Arial, Helvetica, sans-serif;
     color: whitesmoke;
@@ -132,6 +152,7 @@ body.stickfight {
     position: relative;
 }
 
+/* GTA San Andreas */
 body.gtasanandreas {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -144,11 +165,13 @@ body.gtasanandreas {
     position: relative;
 }
 
-[class$="gtasanandreas"] {
+/*Text background in each game */
+[class$="game-title"],[class$="game-desc"],[class$="gamebuy"] {
     background: #000000;
     opacity: 0.80;
 }
 
+/* DiabloIII */
 body.diabloIIIBG {
     font-family: Arial, Helvetica, sans-serif;
     color: red;
@@ -161,11 +184,7 @@ body.diabloIIIBG {
     position: relative;
 }
 
-[class$="diabloIIIBG"] {
-    background: #000000;
-}
-
-
+/*Counter Strike*/
 body.counterstrike {
     font-family: Arial, Helvetica, sans-serif;
     color: orange;
@@ -179,6 +198,7 @@ body.counterstrike {
 
 }
 
+/* Outlast */
 body.outlastgemuoba {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -191,6 +211,7 @@ body.outlastgemuoba {
     position: relative;
 }
 
+/* Plants vs Zombies */
 body.plantsvszombies {
     font-family: Arial, Helvetica, sans-serif;
     color:red;
@@ -203,6 +224,7 @@ body.plantsvszombies {
     position: relative;
 }
 
+/* Mortal Kombat */
 body.mortalkombat {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -215,6 +237,7 @@ body.mortalkombat {
     position: relative;
 }
 
+/* Kingdom Rush */
 body.kingdomrush {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -227,6 +250,7 @@ body.kingdomrush {
     position: relative;
 }
 
+/* Darksiders */
 body.darksiders {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -239,15 +263,17 @@ body.darksiders {
     position: relative;
 }
 
+/* Age of Gladiators */
 body.ageofgladiators {
     font-family: Arial, Helvetica, sans-serif;
     color: sandybrown;
     background-color: brown;
 }
 
+/* WRC7 */
 body.wrc7 {
     font-family: Arial, Helvetica, sans-serif;
-    color:black;
+    color:white;
     font-weight: bolder;
     background-image: url("../images/wrcBG.jpg");
     height: 100%;
@@ -257,6 +283,7 @@ body.wrc7 {
     position: relative;
 }
 
+/* Deponia Doomsday */
 body.deponiadoomsday {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -269,6 +296,7 @@ body.deponiadoomsday {
     position: relative;
 }
 
+/* Holdfast */
 body.holdfast {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -280,6 +308,7 @@ body.holdfast {
     position: relative;
 }
 
+/* Purgatory Fell */
 body.purgatoryfell {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -292,6 +321,7 @@ body.purgatoryfell {
     position: relative;
 }
 
+/* Spore */
 body.spore {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -304,6 +334,7 @@ body.spore {
     position: relative;
 }
 
+/* Kittypocalypse */
 body.kittypocalypse {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -315,9 +346,10 @@ body.kittypocalypse {
     position: relative;
 }
 
+/* Braid */
 body.braid {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: white;
     font-weight: bolder;
     background-image: url("../images/braidBG.jpg");
     height: 100%;
@@ -327,12 +359,14 @@ body.braid {
     position: relative;
 }
 
+/* Other Offers */
 div.other_offers {
      margin-top: 10px;
      margin-bottom: 10px;
 
  } 
 
+/* Content's Table */
   table {
     border-collapse: collapse;
     border: 2px solid rgb(000,000,000);
@@ -355,11 +389,13 @@ div.other_offers {
       background-color: white;
   }
 
+/* Store */
   section.store-gallery {
    margin-top: 100px;
    margin-left: 5%;
 }
 
+/* Gallery */
   div.gallery {
     margin: 5px;
     border: 1px solid black;
@@ -367,40 +403,35 @@ div.other_offers {
     width: 180px;
 }
 
+/* Gallery's Image */
 div.gallery img {
     width: 100%;
     height: auto;
     border: 1px solid black;
 }
 
+/* Gallery's Description */
 div.desc {
     padding: 0px 15px 15px 15px;
     text-align: center;
     border: 1px solid black;
 }
 
+/* Mouse Arrow over Gallery */
 div.gallery:hover {
     background-color: blue;
 }
 
+/* Store's main section */
 div.store1 {
-    max-height: 33.333333%;
-    box-sizing: initial;
-    padding-bottom: 0%;
+    max-width: 50%;
+    padding-left: 25%;
+    padding-right: 25%
+    
+    
 }
 
-div.store2 {
-    max-height: 33.333333%;
-    padding-top: 20%;
-    box-sizing: inherit;
-}
-
-div.store3 {
-    max-height: 33.333333%;
-    padding-top: 10px;
-    box-sizing: inherit;
-}
-
+/* Forms */
 form {
  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  background: grey;
@@ -412,6 +443,7 @@ form {
  justify-content: center;
 }
 
+/* Image in Buy Page */
 .compraHKS {
     position: left;
 }

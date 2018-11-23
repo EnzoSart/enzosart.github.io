@@ -44,8 +44,6 @@ document.addEventListener("DOMContentLoaded", function(){
             else {
                 precioTotal.innerHTML = "$" + precioActual.toFixed(2);
             }
-        
-
         }
     });
 
