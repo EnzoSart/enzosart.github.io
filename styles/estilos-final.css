@@ -396,17 +396,19 @@ div.other_offers {
 }
 
 /* Gallery */
-  div.gallery {
+li.gallery {
     margin: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     float: left;
     width: 180px;
+    height: 250px;
+    overflow: hidden;
 }
 
 /* Gallery's Image */
-div.gallery img {
-    width: 100%;
-    height: auto;
+.gallery img {
+    width: 180px;
+    height: 120px;
     border: 1px solid black;
 }
 
@@ -414,21 +416,16 @@ div.gallery img {
 div.desc {
     padding: 0px 15px 15px 15px;
     text-align: center;
-    border: 1px solid black;
 }
 
 /* Mouse Arrow over Gallery */
-div.gallery:hover {
+li.gallery:hover {
     background-color: blue;
 }
 
 /* Store's main section */
-div.store1 {
-    max-width: 50%;
-    padding-left: 25%;
-    padding-right: 25%
-    
-    
+ul.store1 {
+    list-style-type: none;
 }
 
 /* Forms */

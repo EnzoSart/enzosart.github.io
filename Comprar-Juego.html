@@ -31,11 +31,11 @@
         <br>
         <div>
             <label for="quantity">Quantity:</label>
-            <input type="number" name="quantity" id="quantity" min="1" max="10">
+            <input type="number" name="quantity" id="quantity" min="1" max="10" required>
         </div>
         <div>
             <label for="payment">Payment Method:</label>
-            <select name="payment method" id="payment">
+            <select name="payment method" id="payment" required>
                 <option value="default"></option>
                 <option value="visa">Visa</option>
                 <option value="mastercard">Mastercard</option>
@@ -52,8 +52,8 @@
         </div>
         <div>
             <label for="format">Format:</label>
-            <input type="radio" name="format" value="CD" id="cd">CD
-            <input type="radio" name="format" value="digital" id="digit" checked>Digital
+            <input type="radio" name="format" value="CD" id="cd" required>CD
+            <input type="radio" name="format" value="digital" id="digit" checked required>Digital
         </div>
         <div id="address-div">
             <label for="address">Address:</label>
@@ -77,6 +77,9 @@
         </div>
         <div>
             <input type="reset" value="Cancel" id="btn-cancelar">
+        </div>
+        <div>
+            <button>Buy</button>
         </div>
         </form>
 </body>
