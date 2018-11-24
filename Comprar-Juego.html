@@ -9,7 +9,38 @@
     <meta name="description" content="Buy the most entertaining games on Windows, Mac and Linux">
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="stylesheet" type="text/css" media="screen" href="styles/estilos-final.css" />
+    <link rel="stylesheet" href="styles/animate.css">
     <script src="scripts/comprar-JS.js"></script>
+    <script src="scripts/mi-script.js"></script>
+    <style>
+        .success-alert {
+            width: 700px;
+            height: 70px;
+            position: relative;
+            margin: auto;
+            border: 10px solid green;
+            background-color: purple;
+            color: black;
+            text-align: center;
+            font-size: 18px;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            transition: opacity 1s;
+            box-shadow: 5px 5px 5px 5px;
+            top: 20px;
+            opacity: 0;
+        }
+
+        #loader-wrapper {
+            justify-content: center;
+            width: 25%;
+            height: 25%;
+            top: 0;
+            background-color: rgba(255, 255, 255, 0.5);
+            display: none;
+        }
+    </style>
 </head>
 <body>
     <nav>
@@ -20,7 +51,7 @@
         <a href="store-proyecto-final.html">Store</a>
         <a href="about-proyecto-final.html">About</a>
         <a href="sign-in-proyecto-final.html">Sign In</a>
-        <input type="search" id="search" name="search" placeholder="Searc">
+        <input type="search" id="search" name="search" placeholder="Search">
         </div>
         </nav>
     
@@ -78,9 +109,13 @@
         <div>
             <input type="reset" value="Cancel" id="btn-cancelar">
         </div>
-        <div>
-            <button>Buy</button>
+        <div id="alert-buy" class="success-alert animated">
+            ¡Ha comprado con éxito!
         </div>
+        <div id="loader-wrapper">
+            <img id="spinner" src="images/ajax-loader.gif" width="50px">
+        </div>
+        <button type="button" id="comprar">Comprar</button>
         </form>
 </body>
 </html>

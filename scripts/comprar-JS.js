@@ -80,5 +80,4 @@ document.addEventListener("DOMContentLoaded", function(){
         precioSubtotal.innerHTML = "$0";
         precioTotal.innerHTML = "$0";
     })
-
 });
